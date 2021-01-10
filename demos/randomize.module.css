@@ -1,0 +1,15 @@
+
+.box {
+  height: 25px;
+  text-align:center;
+  animation: fadeIn ease 1s;
+}
+
+.fade-in {
+  animation: fadeIn ease 20s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

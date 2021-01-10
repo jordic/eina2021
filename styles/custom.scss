@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+html {
+    font-size: 60%;
+}
+
+body {
+  background-color: #fff;
+  color: rgb(36, 33, 33);
+  font-family: Arial, Helvetica;
+  line-height: 1.5;
+
+}
+
+h1, h2, h3, h4, h5 {
+    color: #3a6675;
+    font-weight: 900;
+    font-family: "Roboto"
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+hr {
+    width: 100%;
+    margin: 2rem;
+}
+
+.mtop {
+    margin-top: 2rem;
+}
+
+main.header {
+    margin-top: 90px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+header .container div {
+    flex-grow: 1
+}
+
+.menu {
+    background-color:  rgba(0,212,255,1);
+    position: fixed;
+    top: 0; bottom: 100%;
+    left: 0; right: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.menu ul li {
+    list-style: none;
+    font-weight: 900;
+    font-family: "Roboto";
+    font-size: 3rem;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #bdeefd;
+    }
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.home-header {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 16%, rgba(0,212,255,1) 44%, rgba(0,212,255,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  color: #fff;
+  text-align: center;
+  h2 {
+      margin-top: 2rem;
+      font-size: 3.5rem;
+      margin-bottom: 0.3rem;
+      color: #fff;
+      font-weight: 900;
+  }
+}
+
+
+.content {
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+header {
+    background-color: #00bcd4;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 16%, rgba(0,212,255,1) 44%, rgba(0,212,255,1) 100%);
+    padding: 1rem;
+    margin-bottom: 3rem;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 50000;
+}
+
+.hl {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    background-color: #eaeaea;
+    padding: 1rem;
+}
+
+strong {
+    color: #ff5722;
+}
+
+.content {
+    .btop {
+        margin-top: 3rem;
+        border-top: 3px solid #eaea;
+        padding-top: 1rem;
+    }
+}
+
+.highlight-container {
+    background-color: #000;
+    color: #fff;
+    pre {
+        padding: 1rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+.explain {
+    border-left: 5px solid #eaea;
+    padding: 1rem;
+    background-color: #eaeaea;
+    font-size: 1.5rem;
+}
+
+.small {
+    font-size: 1.3rem;
+}
+
+.label {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 2px 10px 2px 10px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+.ejercicio {
+    border: 1px solid #eaea;
+    padding: 0.5rem;
+    color: rgb(24, 82, 121);
+    h4 {
+        color: #00bcd4;
+        font-family: Arial, Helvetica;
+        margin-bottom: 0px;
+    }
+    li {
+        margin-bottom: 0px;
+    }
+    ol {margin-bottom: 0px;}
+}
+
+footer {
+    margin-top: 4rem;
+    background-color: #3a6675;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: #fff;
+    p {
+        margin: 0px;
+    }
+    a { color: #fff; text-decoration: none;}
+}
+
+
+.ReactModal__Overlay {
+    z-index: 1000000;
+    background-color:rgba(0,0,0,0.2) !important;
+}
+
+.ReactModal__Content {
+    margin: auto;
+    width: 600px;
+    max-width: 100%;
+    height: 400px;
+    max-height: 100%;
+    .close {
+        cursor:pointer;
+        &:after, &:before {
+          content:"";
+          height:20px;
+          width:20px;
+          border-top:1px solid #000;
+          position:absolute;
+          top:20px;
+          right:20px;
+          transform: rotate(45deg);
+        }
+        &:before {
+          right:6px;
+          transform: rotate(-45deg);
+        }
+        &:hover {
+            opacity: 0.3;
+        }
+      }
+}
+
+
+.quiz {
+    border-top: 3px solid #4caf50;
+    h3 {
+        color: #4caf50;
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 2rem;
+        font-weight: 900;
+        font-family: "Roboto"
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        background-color: #eaeaea;
+        padding: 1rem;
+        border-radius: 12px;
+        input {
+            margin-bottom: 0;
+            margin-right: 1rem;
+        }
+    }
+
+    .error {
+        background-color: #f1aa93;
+    }
+    .ok {
+        background-color: #4caf50;
+    }
+}
+
+
+.iframe_code {
+    border: 1px solid #eaeaea;
+}
