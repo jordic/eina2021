@@ -61,13 +61,14 @@ header .container div {
     z-index: 100;
     padding-top: 100px;
     text-align: center;
+    transition: all 0.5s ease-in;
 }
 
 .menu ul li {
     list-style: none;
     font-weight: 900;
     font-family: "Roboto";
-    font-size: 3rem;
+    font-size: 2rem;
     a {
         color: #fff;
         text-decoration: none;

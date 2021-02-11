@@ -38,21 +38,66 @@ para localizar el servidor donde tenemos alojado nuestra web.
 
   <div className="row btop">
     <h2>Configuración del Hosting</h2>
+    <p>Para poder desarrollar el curso, en esta y en el resto de asignaturas,
+      debeis comprar un hosting. (un hosting es un servidor donde podremos
+      alojoar nuestra web del curso). El siguiente tutorial muestra como
+      comprar el hosting usando el proveedor Ionos.
+    </p>
   </div>
   <div className="row">
-    <div className="six columns">
-      video
+    <div className="twelve columns">
+        <Youtube id="Zma-DaHsyug" />
     </div>
-    <div className="six columns">
-      <ReactMarkdown>{`
-1. Accedemos a [Ionos](https://www.ionos.es/alojamiento/alojamiento-web)
-2. Escojemos el pack Essencial
-3. Nos pide un dominio (ponemos nuestro nombre de dominio)
-`}</ReactMarkdown>
+    <div className="twelve columns mtop">
+     <ul>
+       <li>1. Accedemos a <a href="https://www.ionos.es/alojamiento/alojamiento-web"
+        target="_blank">Ionos</a></li>
+       <li>2. Escojemos el pack Bussines</li>
+       <li>3. Nos pide un dominio (nuestro nuevo nombre de dominio)</li>
+        <li>4. Pagaremos</li>
+     </ul>
     </div>
   </div>
-  <div className="row">
-    <h2>Configuración de VSCode</h2>
+
+  <div className="row btop">
+
+    <div className="four columns">
+    <h2>Verificación del Dominio</h2>
+      <p>Verificar la propiedad del dominio</p>
+    </div>
+    <div className="eight columns">
+      <Youtube id="hhymTWZTeXs" height={400} />
+    </div>
+
+  </div>
+  <div className="row btop">
+
+    <div className="four columns">
+    <h2>Activación certificado SSL</h2>
+    </div>
+    <div className="eight columns">
+      <Youtube id="3HnpAOyC1BY" height={400} />
+    </div>
+
+  </div>
+  <div className="row btop">
+
+    <div className="four columns">
+    <h2>Instalación de VSCode</h2>
+    </div>
+    <div className="eight columns">
+      <Youtube id="pNami8O_fIE" height={400} />
+    </div>
+
+  </div>
+  <div className="row btop">
+
+    <div className="four columns">
+    <h2>Configuración VSCode</h2>
+    </div>
+    <div className="eight columns">
+      <Youtube id="83x-kwGlhfA" height={400} />
+    </div>
 
   </div>
 
@@ -61,5 +106,14 @@ para localizar el servidor donde tenemos alojado nuestra web.
   </Layout>
 
 )
+
+function Youtube({id, height=600}) {
+  return (
+    <iframe id="player" type="text/html" width="100%" height={height}
+      src={'http://www.youtube.com/embed/' + id + '?cc_load_policy=3&?rel=0'}
+      frameborder="0"></iframe>
+  )
+}
+
 
 export default Entorno

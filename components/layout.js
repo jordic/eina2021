@@ -15,7 +15,7 @@ export function Layout({ children, isHeader = false }) {
                 <Link href="/">
                   <img
                     src="/static/hello.svg"
-                    width="130"
+                    width="40"
                     style={{ marginTop: "5px" }}
                   />
                 </Link>

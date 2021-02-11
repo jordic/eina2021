@@ -11,7 +11,7 @@ import menu from "../components/menu"
 const Home = () => (
   <Layout>
     <section className="home-header">
-      <img src="/static/hello.svg" width="250" />
+      <img src="/static/hello.svg" width="100" />
       <h2>Introducción a la programación</h2>
       <p>
         Conceptos fundamentales de programación orientada a web con javascript
