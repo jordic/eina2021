@@ -4,6 +4,7 @@ import { CodeRunnerOutput } from "../components/runner";
 import { Ejercicio } from "../components/ejercicio";
 import { Quiz } from "../components/quiz";
 import questions from "../quiz/002";
+import {Youtube} from "./utils"
 
 
 const IntroProg = () => (
@@ -104,7 +105,9 @@ alert("Resultado " + (a+b))`}
             </tbody>
           </table>
         </div>
-        <div className="six columns">[video] usar la consola del navegador</div>
+        <div className="six columns">
+          <Youtube id="M_OvQ3LidMw" height={400} />
+        </div>
       </div>
       <div className="row">
         <CodeRunnerOutput code={operations} executable />
