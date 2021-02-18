@@ -1,6 +1,6 @@
 import {Layout} from '../components/layout'
 import ReactMarkdown from 'react-markdown'
-import {Youtube} from "./utils"
+import {Youtube} from "../components/utils"
 
 const Entorno = () => (
   <Layout isHeader>

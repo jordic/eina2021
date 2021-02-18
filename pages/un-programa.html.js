@@ -4,7 +4,7 @@ import { CodeRunnerOutput } from "../components/runner";
 import { Ejercicio } from "../components/ejercicio";
 import { Quiz } from "../components/quiz";
 import questions from "../quiz/002";
-import {Youtube} from "./utils"
+import {Youtube} from "../components/utils"
 
 
 const IntroProg = () => (
