@@ -25,8 +25,11 @@ const Jeyquery = () => {
             Interactuar con el DOM
           </h4>
         </div>
+        <div className="row cent">
+          <img src="/static/dom.png" height="400px"  />
+        </div>
         <div className="row">
-          <div className="six columns">
+          <div className="twelve columns">
             <h5>¿Qué es?</h5>
             <p>
               JQuery es una <strong>librería</strong> que nos permite
@@ -43,10 +46,6 @@ const Jeyquery = () => {
               donde el path es la ruta al archivo. (Igual que una imágen o un
               css).
             </p>
-          </div>
-          <div className="six columns">
-            <h2>El DOM</h2>
-            [video]
           </div>
         </div>
         <div className="row btop">

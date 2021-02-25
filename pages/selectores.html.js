@@ -20,20 +20,33 @@ const Jeyquery = () => (
       </div>
       <div className="row">
         <div className="six columns">
-          <h5>¿Qué es?</h5>
           <p>
-            Un lenguaje formal que le proporciona a una persona, en este caso el
-            programador, la capacidad de escribir una serie de instrucciones o
-            secuencias de órdenes, de manera que se puedan ejecutar determinadas
-            tareas. Todo el conjunto de órdenes se le llama programa
+            jQuery nos permite interactuar con el DOM de forma dinámica.
+            Podemos cambiar colores, ocultar cosas, mover, cargar contenido,
+            o programar eventos, pero siempre usando elementos del DOM.
+            Para realizar cualquier acción, debemos escojer el elemento
+            sobre el que lo realizaremos. Y para eso usaremos un selector.
           </p>
         </div>
         <div className="six columns">
-          <h2>DOM</h2>
+          <h2>Selector</h2>
+          <CodeRunner language="html" code={`$('expression').metodo()`} />
+          <p>Un <strong>selector</strong> es una expresión que nos
+          permite un elemento o conjunto de elementos del DOM.</p>
         </div>
       </div>
       <div className="row btop">
+        <div className="six columns">
         <h1>Seleccionando ids</h1>
+          <ul>
+            <li>Igual que en CSS seleccionamos con <strong>#elemento</strong></li>
+            <li>ID, es un identificador y debe de ser único por documento</li>
+            <li>jQuery nos devuelve una referencia al elemento</li>
+          </ul>
+        </div>
+        <div className="six columns">
+          <CodeRunner language="html" code={htmlIds} />
+        </div>
       </div>
       <div className="row btop">
         <h1>Seleccionando classes</h1>
@@ -49,5 +62,18 @@ const Jeyquery = () => (
     </div>
   </Layout>
 );
+
+const htmlIds = `<html>
+  <body id="bod">
+    <div id="principal">
+      <p>Content</p>
+      <button id="boton">Button</button>
+    </div>
+  </body>
+</html>
+`
+
+
+
 
 export default Jeyquery;
