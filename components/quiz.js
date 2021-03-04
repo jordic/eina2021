@@ -30,6 +30,7 @@ export function Quiz({questions, title="Ejercicio"}) {
           if(errors.includes(idx)) class_ = "error";
           else if (idx == curr.c && answ.includes(idx)) class_ = "ok"
           return (<li
+            key={idx}
             onClick={(e) => checkAnswer(idx)}
             className={class_}
 

@@ -47,6 +47,17 @@ const menu = [
     ),
   },
   {
+    title: "Funciones, listas y objetos",
+    link: "/functions.html",
+    content: (
+      <p>
+          Funciones listas y objetos.
+          <br />
+          function, [], {'{}'}
+        </p>
+    ),
+  },
+  {
     title: "Sliders",
     link: "/sliders.html",
     content: (
