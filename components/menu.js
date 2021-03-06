@@ -47,6 +47,17 @@ const menu = [
     ),
   },
   {
+    title: "Rutas, archivos y directorios",
+    link: "/rutas-archivos-directorios.html",
+    content: (
+      <p>
+          Enlazar documentos en hypertexto.
+          <br />
+          Rutas absolutas, rutas relativas.
+        </p>
+    ),
+  },
+  {
     title: "Funciones, listas y objetos",
     link: "/functions.html",
     content: (
