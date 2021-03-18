@@ -58,13 +58,13 @@ const menu = [
     ),
   },
   {
-    title: "Funciones, listas y objetos",
+    title: "Funciones y listas",
     link: "/functions.html",
     content: (
       <p>
-          Funciones listas y objetos.
+          Funciones y listas.
           <br />
-          function, [], {'{}'}
+          function, [],
         </p>
     ),
   },
