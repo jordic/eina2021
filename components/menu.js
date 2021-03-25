@@ -69,65 +69,16 @@ const menu = [
     ),
   },
   {
-    title: "Sliders",
-    link: "/sliders.html",
+    title: "toggleClass",
+    link: "/has_class.html",
     content: (
       <p>
-          Configuración e inicialización de un plugin jQuery básico.
-          <br />
-          Un slider de imágenes.
+        toggleClass<br />
+        Poner y cambiar clases css des de js
         </p>
     ),
   },
-  {
-    title: "Galería Imágenes",
-    link: "/gallery.html",
-    content: (
-      <p>
-          Configuración de un plugin de galería de imágenes.
-          <br />
-          fotos en modal.
-        </p>
-    ),
-  },
-  {
-    title: "Menú desplegable",
-    link: "/menu-desplegable.html",
-    content: (
-      <p>
-          Creación de un menú desplegable des de 0.
-          <br />
-          HTML, CSS y Javascript
-        </p>
-    ),
-  },
-  {
-    title: "Animaciones SVG",
-    link: "/animaciones-svg.html",
-    content: (
-      <p>
-          Pequeñas animaciones con SVG. <br />
-          Paths y CSS
-        </p>
-    ),
-  },
-  {
-    title: "Sincronizar el scroll",
-    link: "/scrolling.html",
-    content: (
-      <p>
-          Construcción de landing pages con animaciones sincronizadas al scroll.
-          (CSS/js)
-        </p>
-    ),
-  },
-  {
-    title: "Revisión y Evaluación",
-    link: "/revision.html",
-    content: (
-      <p>Revisión y evaluación del curso</p>
-    ),
-  }
+
 ];
 
 export default menu;
